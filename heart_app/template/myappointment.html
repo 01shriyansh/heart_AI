@@ -1,0 +1,615 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LNMIIT healthcare</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Medicate Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<!-- <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> -->
+<!-- stylesheet -->
+
+<script type="text/javascript" src="{% static 'js/jquery-1.11.1.min.js' %}" ></script>
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}" ></script>
+
+
+
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static 'css/easy-responsive-tabs.css' %}" rel='stylesheet' type='text/css'/>
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static 'css/gallery.css' %}" rel="stylesheet" type="text/css" media="all" />
+
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/gallery.css" rel="stylesheet" type="text/css" media="all" />  -->
+<!-- //stylesheet -->
+<!-- online fonts -->
+
+
+
+<link href="{% static '//fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900' %}" rel="stylesheet">
+<link href="{% static '//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i' %}" rel="stylesheet">
+
+<!-- <link href="//fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"> -->
+
+
+
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+
+<link href="{% static 'css/font-awesome.css' %}" type="text/css" rel="stylesheet">
+<!-- <link href="css/font-awesome.css" type="text/css" rel="stylesheet">  -->
+
+<!-- //font-awesome-icons -->
+
+<script  src="{% static 'js/modernizr.custom.js' %}" ></script>
+<script type="text/javascript"  src="{% static 'js/modernizr.custom.79639.js' %}" ></script>	
+<!-- <script src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>		 -->
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}"/>	
+<!-- <link rel="stylesheet" type="text/css" href="css/custom.css" />	 -->
+<!-- for smooth scrolling -->
+
+<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/easing.js' %}" ></script>
+
+<!-- <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script> -->
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+<!-- //for smooth scrolling -->
+</head>
+<body>
+<div class="agileits_main">
+    <!-- header -->
+	<div class="container">
+		<div class="w3_agile_logo">
+			<h1><a href="index.html"><i class="agileits-logo fa fa-plus" aria-hidden="true"></i>LNMIIT Medicare</a></h1>
+		</div>
+		<div class="agileits_w3layouts_nav">
+			<div id="toggle_m_nav">
+				<div id="m_nav_menu" class="m_nav">
+					<div class="m_nav_ham w3_agileits_ham" id="m_ham_1"></div>
+					<div class="m_nav_ham" id="m_ham_2"></div>
+					<div class="m_nav_ham" id="m_ham_3"></div>
+				</div>
+			</div>
+			<div id="m_nav_container" class="m_nav wthree_bg">
+				<nav class="menu menu--sebastian">
+					<ul id="m_nav_list" class="m_nav menu__list">
+						<li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1"> <a href="#" class="menu__link"><i class="menu-icon fa fa-home" aria-hidden="true"></i> Home </a></li>
+						<li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="#about" class="menu__link"><i class="menu-icon fa fa-info-circle" aria-hidden="true"></i>About the Project </a> </li>
+						<li class="m_nav_item menu__item" id="moble_nav_item_3"> <a href="#services" class="menu__link"><i class="menu-icon fa fa-cog" aria-hidden="true"></i>Features</a> </li>
+						<!-- <li class="m_nav_item menu__item" id="moble_nav_item_4"> <a href="#team" class="menu__link"><i class="menu-icon fa fa-users" aria-hidden="true"></i>Team</a> </li> -->
+						<!-- <li class="m_nav_item menu__item" id="moble_nav_item_5"> <a href="#grid-gallery" class="menu__link"><i class="menu-icon fa fa-file-image-o" aria-hidden="true"></i>lab</a> </li> -->
+						<li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="#contact" class="menu__link"><i class="menu-icon fa fa-map-marker" aria-hidden="true"></i>predictions </a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- menu -->
+	
+	<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+	<!-- <script type="text/javascript" src="js/main.js"></script> -->
+	<!-- //menu -->
+	<!--// header -->
+	<!-- banner -->
+	<div class="w3_banner">
+	    <div class="container">
+		    <div class="slider">
+			    <div class="callbacks_container">
+				   <ul class="rslides callbacks callbacks1" id="slider4">
+					    <li>	
+						    <div class="banner_text_w3layouts">
+								<h3>LNMIIT healthcare</h3>
+								<p>check your hearts health now</p>
+						    </div>
+					    </li>
+						<li>	
+							<div class="banner_text_w3layouts">
+								<h3>LNMIIT healthcare </h3>
+								<p>Equipped with best healthcare facilities</p>
+							</div>
+						</li>
+						<li>							
+							<div class="banner_text_w3layouts">
+								<h3>LNMIIT healthcare  </h3>
+								<p>Feeling unwell ??Don't worry get an appoinment with a doctor now</p>
+							</div>
+					    </li>
+			    	</ul>
+				</div>
+				
+				<script src="{% static 'js/responsiveslides.js' %}"></script>
+			  <!-- <script src="js/responsiveslides.js"></script> -->
+			  <script>
+				// You can also use "$(window).load(function() {"
+				$(function () {
+				  // Slideshow 4
+				  $("#slider4").responsiveSlides({
+					auto: false,
+					pager:true,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					  $('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+					  $('.events').append("<li>after event fired.</li>");
+					}
+				  });
+			
+				});
+			 </script>
+		   </div>
+		</div>   
+	</div>	
+</div>
+<!-- //banner -->
+
+<!-- about -->
+<div class="jarallax w3ls-about w3ls-section " id="about">
+	<div class="container">
+		<h3 class="h3-w3l">about the project</h3>
+		<div class="about-head text-center">
+			<div class="col-md-4 col-sm-4 col-xs-6 wthree-s1 " >
+				 <span class="fa fa-medkit sicon" aria-hidden="true"></span>
+				 <h4>Data Collection and data processing</h4>
+				 <p>Data Collection and data processing</p>
+				 <div class="w3-button">
+					<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6 wthree-s1  s1  s1-active">
+				 <span class="fa fa-user-md sicon" aria-hidden="true"></span>
+				 <h4>Applying machine learinng model to predict heart disease</h4>
+				 <p>Applying machine learinng model to predict heart disease  </p>
+				 <div class="w3-button">
+					<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6 wthree-s1">
+				 <span class="fa fa-ambulance sicon" aria-hidden="true"></span>
+				 <h4>Using responsive pages to present the idea.</h4>
+				 <p>Using responsive pages to present the idea.</p>
+				 <div class="w3-button">
+					<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>		
+	</div>
+</div>	
+<!-- //about -->
+	
+
+<!-- <services> -->
+
+
+<div class="jarallax w3ls-services w3ls-section" id="services">
+	<div class="container">
+		<h3 class="h3-w3l">Features Used For Predictions</h3>
+	</div>	
+	<div class="wthree-services-bottom">
+		<div class="container">
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 " >
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">01</span><h4>Feature 1</h4>
+					<p> <br><h4>Age</h4> <br>: numerical data <br> <br> <br> </p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1  sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">02</span><h4>Feature 2</h4>
+					<p> <br><h4>Gender </h4><br> &nbsp;: 1 = Male, 0 = Female <br> <br> <br> </p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 sb2">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">03</span><h4>Feature 3</h4>
+					<p>  <br> <h4>chest pain type</h4> <br>&nbsp;:  1 = Typical angina , 2 = atypical angina, 3 = non-anginal pain ,4 = asymptomatic .</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">04</span><h4>Feature4</h4>
+					<p> <br> <h4> Resting blood pressure</h4> <br>&nbsp;: Between 90/60mmHg and 120/80mmHg.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+	</div>
+	<div class="wthree-services-bottom">
+		<div class="container">
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 " >
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">05</span><h4>Feature5</h4>
+					<p> <br> <h4>  serum cholestoral  </h4> <br>&nbsp;&nbsp;:Age Dependent (measured in mg/dl) .</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1  sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">06</span><h4>Feature6</h4>
+					<p> <br> <h4> fasting blood sugar </h4><br> &nbsp;: > 120 mg/dl(Binary)(1 = true; 0 = false).</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 sb2">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">07</span><h4>Feature7</h4>
+					<p><br><h4> resting ECG results </h4><br> &nbsp; &nbsp; (values 0,1,2).<br>   &nbsp;</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">08</span><h4>Feature8</h4>
+					<p> <br><h4>  maximum heart rate </h4><br> &nbsp; Subtract the age from 220.<br> &nbsp; </p>
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+	</div>
+	<div class="wthree-services-bottom">
+		<div class="container">
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 " >
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">09</span><h4>Feature9</h4>
+					<p> <br><h4> exercise induced angina </h4><br > &nbsp;&nbsp;: (1 = yes; 0 = no).<br> &nbsp; </p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1  sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">10</span><h4>Feature10</h4>
+					<p><br><h4> ST depression</h4> <br> &nbsp;: induced by exercise relative to&nbsp; rest  .<br> &nbsp; </p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 sb2">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">11</span><h4>Feature11</h4>
+					<p><br><h4>(slope) of the ST segment </h4><br>&nbsp; (Value 1: upsloping , Value 2: flat , Value 3: downsloping ).</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1">
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">12</span><h4>Feature12</h4>
+					<p> <br><h4> number of major vessels </h4><br> &nbsp;(0-3, Ordinal) colored by fluoroscopy .<br>  </p>
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+	</div>
+	<div class="wthree-services-bottom">
+		<div class="container">
+			<div class="col-md-3 col-sm-3 col-xs-6 wthree-sb1 " >
+					<span class="fa fa-heartbeat sicon" aria-hidden="true"></span>
+					<span class="num">13</span><h4>Feature13</h4>
+					<p> <br> <h4>maximum heart rate achieved </h4> <br> &nbsp; (Ordinal): 3 = normal; 6 = fixed defect; 7 = reversable defect.</p>
+			</div>
+		</div>
+	</div>
+</div>	
+
+<!-- <services>  -->
+	
+
+
+<!-- <imp_req> -->
+<div id="grid-gallery" class="grid-gallery">
+	<div class="container">
+	<h3 class="h3-w3l">Look Below For Predictions</h3>
+		<section class="grid-wrap">
+			<ul class="grid">
+				<li class="grid-sizer"></li>
+				<!-- <li>
+					<figure>
+						<img src="images/a.jpg" alt="img01"/>
+					</figure>
+				</li> -->
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+	</div>
+</div>
+
+<!-- <imp_req> -->
+
+
+
+<!-- contact -->	
+<div class="contact w3ls-section" id="contact">
+	<div class="container">
+		<h3 class="h3-w3l">Fill in the details below to predict</h3>
+		<div class="contact-grids">
+			<div class="col-md-6 col-sm-6 contact-left">
+				<form action="predictheart" method="post">
+					{% csrf_token %}
+					<input type="text" class="name" name="name_p" placeholder="Patient's name" required="">
+					<input type="text" class="name" name="age" placeholder="Age of patient" required="">
+					<input type="text" class="name" name="gender" placeholder="Gender" required="">
+					<input type="text" class="name" name="cp" placeholder="cp" required="">
+					<input type="text" class="name" name="trestbps" placeholder="resting blood pressure " required="">
+					<input type="text" class="name" name="chol" placeholder="serum cholestrol" required="">
+					<input type="text" class="name" name="fbs" placeholder="fbs" required="">
+					<input type="text" class="name" name="restecg" placeholder="restecg" required="">
+					<input type="text" class="name" name="thalach" placeholder="thalach" required="">
+					<input type="text" class="name" name="exang" placeholder="exang" required="">
+					<input type="text" class="name" name="oldpeak" placeholder="oldpeak" required="">
+					<input type="text" class="name" name="slope" placeholder="slope" required="">
+					<input type="text" class="name" name="ca" placeholder="ca" required="">
+					<input type="text" class="name" name="thal" placeholder="thal" required="">
+					<!-- <textarea placeholder="Your Message" required=""></textarea> -->
+					<input type="submit" value="SUBMIT">
+				</form>
+			</div>
+			<div class="col-md-6 col-sm-6 contact-left">
+				<!-- <h2>Filling the form</h2>
+				<h2>Kindly fill the form with accurate details to get the predictions.</h2>
+				<h2>Our Predictor (Y, Positive or Negative diagnosis of Heart Disease) is determined by 13 features (X):</h2> -->
+				
+				
+			</div>						
+			<div class="clearfix"> </div>
+		</div>		
+	</div>	
+</div>
+<!-- //contact -->	
+
+
+<!-- <imp_req> -->
+	<div id="grid-gallery" class="grid-gallery">
+		<div class="container">
+		<h3 class="h3-w3l">Book Your Appointment</h3>
+			<section class="grid-wrap">
+				<ul class="grid">
+					<li class="grid-sizer"></li>
+					<!-- <li>
+						<figure>
+							<img src="images/a.jpg" alt="img01"/>
+						</figure>
+					</li> -->
+				</ul>
+				<div class="clearfix"></div>
+			</section>
+		</div>
+	</div>
+	
+	<!-- <imp_req> -->
+
+<!-- Appointment -->
+<div class=" w3_agileits-apt">	
+	<div class="container">
+		<div class="agile-caption">
+			{% if scoreval  %}
+					<!-- <h2>{{scoreval}}</h2> -->
+					<h4 class="apt-t"><span class="apt-t1">{{scoreval}}</span></h4>
+					<h4 class="apt-t"><span class="apt-t1">if you want more information</span></h4>
+			{% endif %}
+			<h4 class="apt-t"><span class="apt-t1">Find a doctor today</span> and Book your appointment<span class="apt-t2">Now</span></h4>
+			<div class="agileits-apmnt-button">
+				<a href="#" data-toggle="modal" data-target="#myModal1">Book online</a>
+			</div>
+		</div>
+	</div>	
+	</div>
+	<!-- //Appointment -->	
+	<!-- modal -->
+		<div class="modal about-modal fade" id="myModal1" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header"> 
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+							<h4 class="modal-title">Quick</h4>
+							<h5>appointment booking</h5>
+					</div> 
+					<div class="modal-body">
+							<div class="wthree-info">
+								<h3>Fill details below to book an appointment</h3>
+								<div class="login">
+									<form action="booking" method="post">
+											 <input type="text" class="user" name="email" placeholder="Name" required="">
+											 <input type="text" name="phone" placeholder="Phone" required=""> 
+											<input placeholder="Date" class="date" id="datepicker" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""/>
+											 <select required="">
+												<option value="">Select Time</option>
+												<option value="1">08:00-8:30</option>
+												<option value="2">08:30-9:00</option>
+												<option value="3"> 09:00-9:30</option>
+												<option value="4">09:30-10:00</option>
+											 </select>
+											 <select required="">
+												<option value="">Select City</option>
+												<option value="1">city1</option>
+												<option value="2">city2</option>
+												<option value="3"> city3</option>
+												<option value="4">city4</option>
+											 </select>
+											 <select required="">
+												<option value="">Select Hospital/Clinic</option>
+												<option value="1">Hospital1</option>
+												<option value="2">Hospital2</option>
+												<option value="3">Hospital3</option>
+												<option value="4">Hospital4</option>
+											 </select>
+											 <select required="">
+												<option value="">Select Speciality</option>
+												<option value="1">Dermatology</option>
+												<option value="2">ENT</option>
+												<option value="3"> Genaral Medicine</option>
+												<option value="4">Nutritionist</option>
+											 </select>
+					
+											 <input type="submit" value="request appointment">
+									</form>
+								</div>	
+							 </div> 
+							<div class="clearfix"> </div>
+						</div>
+				   </div>
+			</div>
+		</div>
+		<!-- //modal -->
+		
+
+
+
+<div id="grid-gallery" class="grid-gallery">
+	<div class="container">
+	<h3 class="h3-w3l">Way To Reach US</h3>
+		<section class="grid-wrap">
+			<ul class="grid">
+				<li class="grid-sizer"></li>
+				<!-- <li>
+					<figure>
+						<img src="images/a.jpg" alt="img01"/>
+					</figure>
+				</li> -->
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+<!-- footer-->	
+<!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lnmiit&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div> -->
+
+<div class="agileits_w3layouts-footer">
+	<div class="agileits-map">
+		<iframe src="https://maps.google.com/maps?q=lnmiit&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="copy-right text-center">
+		<span class="agileits-copy fa fa-plus" aria-hidden="true"></span>
+		<p>&copy;Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+	</div>	
+</div>	
+<!-- footer-->	
+
+
+
+<script src="{% static 'js/jarallax.js' %}" ></script>
+<script src="{% static 'js/SmoothScroll.min.js' %}" ></script>
+
+<!-- <script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script> -->
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script>
+<!-- here starts scrolling icon -->
+		<!-- start-smoth-scrolling -->
+		
+
+		<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/easing.js' %}" ></script>
+
+		<!-- <script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script> -->
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- /ends-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->
+	<!--start-date-piker-->
+	
+
+	<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}"  />
+	<script src="{% static 'js/jquery-ui.js' %}" ></script>
+		<!-- <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}"  />
+		<script src="{% static 'js/jquery-ui.js' %}" ></script> -->
+			<script>
+				$(function() {
+				$( "#datepicker,#datepicker1" ).datepicker();
+				});
+			</script>
+<!-- //End-date-piker -->	
+<!-- here starts scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+										
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+<!--tabs-->
+
+
+		<script src="{% static 'js/easy-responsive-tabs.js' %}"></script>
+		<!-- <script src="js/easy-responsive-tabs.js"></script> -->
+		<script>
+		$(document).ready(function () {
+		$('#horizontalTab').easyResponsiveTabs({
+		type: 'default', //Types: default, vertical, accordion           
+		width: 'auto', //auto or any width like 600px
+		fit: true,   // 100% fit in a container
+		closed: 'accordion', // Start closed if in accordion view
+		activate: function(event) { // Callback function if tab is switched
+		var $tab = $(this);
+		var $info = $('#tabInfo');
+		var $name = $('span', $info);
+		$name.text($tab.text());
+		$info.show();
+		}
+		});
+		$('#verticalTab').easyResponsiveTabs({
+		type: 'vertical',
+		width: 'auto',
+		fit: true
+		});
+		});
+		</script>
+<!--//tabs-->
+</body>
+</html>

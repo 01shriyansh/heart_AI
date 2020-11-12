@@ -1,0 +1,44 @@
+{% extends 'myheader.html %}
+{% block content % }
+
+	
+<!-- contact -->	
+	<div class="contact w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="h3-w3l">Fill in the details below to predict</h3>
+			<div class="contact-grids">
+				<div class="col-md-6 col-sm-6 contact-left">
+					<form action="#" method="post">
+						<input type="text" class="name" name="name" placeholder="Age of patient" required="">
+						<input type="text" class="name" name="name" placeholder="Gender" required="">
+						<input type="email" class="name" name="name" placeholder="cp" required="">
+                        <input type="text" class="name" name="name" placeholder="trestbps" required="">
+                        <input type="text" class="name" name="name" placeholder="cholestrol" required="">
+                        <input type="text" class="name" name="name" placeholder="fbs" required="">
+                        <input type="text" class="name" name="name" placeholder="restecg" required="">
+                        <input type="text" class="name" name="name" placeholder="thalach" required="">
+                        <input type="text" class="name" name="name" placeholder="exang" required="">
+                        <input type="text" class="name" name="name" placeholder="oldpeak" required="">
+                        <input type="text" class="name" name="name" placeholder="slope" required="">
+                        <input type="text" class="name" name="name" placeholder="ca" required="">
+                        <input type="text" class="name" name="name" placeholder="thal" required="">
+						<!-- <textarea placeholder="Your Message" required=""></textarea> -->
+						<input type="submit" value="SEND">
+					</form>
+                </div>
+                
+                
+				<div class="col-md-6 col-sm-6 contact-left" data-wow-duration="2s" data-wow-delay="0.5s">
+
+                    {% if target == 1 %}
+                    <h2>You are predicted with disease</h2>
+                    {% else %}
+                    <h2>You are free from disease</h2>
+				</div>						
+				<div class="clearfix"> </div>
+			</div>		
+		</div>	
+	</div>
+<!-- //contact -->	
+
+{ % endblock % }
